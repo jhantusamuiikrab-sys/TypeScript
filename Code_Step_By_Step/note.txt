@@ -1,0 +1,9 @@
+1. How to install typescript ?
+npm install typescript
+2. How to install typescript globally?
+npm install typescript --save-dev
+3. If any changes happen what is the procedure to continiously changes the file ?
+npx tsc app.ts --watch
+4. with out compiling how to run a typescript file - npm install -D tsx, npx tsx filename.ts
+5. search in google how to run typescript files
+npx tsx e8_bigint.ts
