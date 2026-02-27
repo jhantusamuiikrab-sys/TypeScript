@@ -4,3 +4,5 @@ function getInfo() {
 }
 
 (window as any).getInfo = getInfo; // Force it to be global
+
+

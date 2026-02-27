@@ -1,0 +1,19 @@
+// Never return type represents something that should not or cannot happen.
+
+//**************************************************************************************************************************************************
+// 1. Function that throw error that can't reach to the return statement
+function throwError(message: string): never {
+  throw new Error(message);
+}
+throwError("You never reach to the return statement");
+
+//**************************************************************************************************************************************************
+// 2. Infinite Loops
+// If a function enters an infinite loop and never exits, its return type is never.
+function infiniteLoop(): never {
+  while (true) {
+    // This function will never complete
+  }
+}
+
+

@@ -13,6 +13,8 @@ const user = {
   [secretKey]: "12345-ABC", // This key is unique
 };
 
+
+
 // You cannot access it using a string
 // console.log(user["token"]); // undefined
 console.log(user[secretKey]); // "12345-ABC"

@@ -12,5 +12,4 @@
 // console.log(data+temp2);
 
 let data = 9007199254740991;
-console.log(data+6)
-
+console.log(data + 6);

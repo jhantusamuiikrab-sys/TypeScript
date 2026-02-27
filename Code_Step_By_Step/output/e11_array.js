@@ -3,9 +3,17 @@
 let numbers = [1, 2, 3, 4, 5];
 let names = ["Alice", "Bob", "Charlie"];
 numbers.push(6);
-console.log(numbers);
+// console.log(numbers)
 // IF we want to read only an array
 let city = ["Howrah", "Kolkata"];
-// city.push("Mumbai");
-console.log(city);
 export {};
+// city.push("Mumbai");
+// console.log(city)
+// const name: string[] = ["user1", "user2"];
+// console.log(name);
+// const rollNo: Array<number> = [1, 2, 3, 4, 5];
+// const age: number[] = [];
+// rollNo.map((i) => {
+//   return age.push(i+1);
+// });
+// console.log(age)

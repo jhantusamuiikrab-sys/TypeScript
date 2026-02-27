@@ -1,9 +1,10 @@
+
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     "outDir": "./output",
     "module": "ESNext",         // Changed from es6 to ESNext for better compatibility
-    "target": "ES6",            // Changed from esnext to ES6 so it runs on older browsers
+    "target": "ESNext",            // Changed from esnext to ES6 so it runs on older browsers
     "lib": ["DOM", "ESNext"],
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true, 
